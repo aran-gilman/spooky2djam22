@@ -117,11 +117,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wall_0
+      name: WallCorner0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -138,11 +138,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_1
+      name: Wall0
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -159,11 +159,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_2
+      name: WallCorner1
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -180,11 +180,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_3
+      name: Wall1
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -201,11 +201,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_5
+      name: Wall2
       rect:
         serializedVersion: 2
         x: 32
-        y: 16
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -222,11 +222,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_6
+      name: WallCorner2
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -243,11 +243,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_7
+      name: Wall3
       rect:
         serializedVersion: 2
         x: 16
-        y: 0
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -264,11 +264,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_8
+      name: WallCorner3
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -284,6 +284,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: WallCorner4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4c9c72057a1974d9884b1b5d404580
+      internalID: 168153748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallCorner5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4612575c4784c4a43945fa000ada71d3
+      internalID: 1796497399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -295,15 +337,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      wall_0: 1630721059
-      wall_2: 1874113738
-      wall_6: -2032408158
-      wall_1: -86333983
-      wall_3: 1753266847
-      wall_5: 396172518
-      wall_4: 168153748
-      wall_8: -1228549156
-      wall_7: 521514837
+      WallCorner0: 1630721059
+      WallCorner2: -2032408158
+      WallCorner4: 168153748
+      WallCorner5: 1796497399
+      WallCorner3: -1228549156
+      WallCorner1: 1874113738
+      Wall1: 1753266847
+      Wall2: 396172518
+      Wall0: -86333983
+      Wall3: 521514837
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
